@@ -1,0 +1,79 @@
+[X] Base-
+[X] UB-
+[X] UBPink-
+[X] UBSpeedRacer-
+[X] UB Dream-
+[X] UB Dream Day-
+[X] UB Dream Night-
+[X] UB Hidden-
+[X] Glub-
+[X] Sprout-
+[X] Tiki-
+[X] Twinx-
+[ ] Stitch-
+[ ] Deuce-
+[ ] Wasabi-
+[ ] Bones-
+[ ] Xener-
+[ ] Fallout-
+[ ] Boggle-
+[ ] Vroom-
+[X] Scratch-
+[X] Lotus-
+[ ] Flurry-
+[ ] Nibble-
+[ ] Sol-
+[ ] Webley-
+[ ] RacerX-
+[ ] Trixie-
+[ ] Cannon-
+[ ] Snake-
+[ ] Speed-
+[ ] Chim-
+[ ] Speed2-
+[ ] Taejo-
+[ ] Ptep-
+[ ] Dyer-
+[ ] Lucky-
+[ ] Tank-
+[ ] Sprocket-
+[ ] Vlurp-
+[ ] Berger-
+[X] Drift-
+[ ] Waggs-
+[ ] Snipe-
+[X] Gabby-
+[ ] Rewind-
+[X] Holler-
+[ ] Rom-
+[X] Dot-
+[ ] Singe-
+[ ] Raj-
+[ ] Yang-
+[ ] Bomble-
+[X] Rastro-
+[X] Tadd-
+[ ] Nectar-
+[ ] Maul-
+[ ] Mulch-
+[X] Ace-
+
+--
+[ ] Con-
+[ ] Henchman-
+[ ] Oni-
+[ ] Jerry-
+[ ] Tribe Chief-
+[ ] Tribesman-
+[ ] MasterLox-
+[ ] Mayor Sayso-
+[ ] Royalton-
+[ ] Cruncher-
+[ ] Sidd-
+[ ] Kane-
+[ ] Dali-
+[ ] Goya-
+[ ] Angus-
+[ ] Marshall-
+[ ] ShopGuy
+[ ] Tach

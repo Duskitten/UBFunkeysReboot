@@ -1,0 +1,353 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Scripts/save_loadFunkeys.gd" type="Script" id=1]
+[ext_resource path="res://WindowModule/Scenes/CanvasLayer.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scripts/Swap.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/Funkeystown.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Objects/Funkey.tscn" type="PackedScene" id=5]
+[ext_resource path="res://WindowModule/Scripts/CameraOffsetter.gd" type="Script" id=6]
+
+[node name="Container" type="Node2D" index="0"]
+
+script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="CanvasLayer" parent="." index="0" instance=ExtResource( 2 )]
+
+[node name="ScrollContainer" type="ScrollContainer" parent="CanvasLayer" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 675.0
+margin_top = -1.0
+margin_right = 800.0
+margin_bottom = 128.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+scroll_horizontal_enabled = true
+scroll_horizontal = 0
+scroll_vertical_enabled = true
+scroll_vertical = 0
+_sections_unfolded = [ "Scroll" ]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/ScrollContainer" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 112.0
+margin_bottom = 236.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+alignment = 0
+
+[node name="Swap3" type="Button" parent="CanvasLayer/ScrollContainer/VBoxContainer" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 112.0
+margin_bottom = 20.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Red"
+flat = false
+align = 1
+script = ExtResource( 3 )
+Num = "00000000"
+
+[node name="Swap4" type="Button" parent="CanvasLayer/ScrollContainer/VBoxContainer" index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 24.0
+margin_right = 112.0
+margin_bottom = 44.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Yellow"
+flat = false
+align = 1
+script = ExtResource( 3 )
+Num = "00000001"
+
+[node name="Swap5" type="Button" parent="CanvasLayer/ScrollContainer/VBoxContainer" index="2"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 48.0
+margin_right = 112.0
+margin_bottom = 68.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Blue"
+flat = false
+align = 1
+script = ExtResource( 3 )
+Num = "00000002"
+
+[node name="Swap2" type="Button" parent="CanvasLayer/ScrollContainer/VBoxContainer" index="3"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 72.0
+margin_right = 112.0
+margin_bottom = 92.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "UB"
+flat = false
+align = 1
+script = ExtResource( 3 )
+Num = "00000003"
+
+[node name="Swap" type="Button" parent="CanvasLayer/ScrollContainer/VBoxContainer" index="4"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 96.0
+margin_right = 112.0
+margin_bottom = 116.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Pink UB"
+flat = false
+align = 1
+script = ExtResource( 3 )
+Num = "00000004"
+
+[node name="Swap6" type="Button" parent="CanvasLayer/ScrollContainer/VBoxContainer" index="5"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 120.0
+margin_right = 112.0
+margin_bottom = 140.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Speed UB"
+flat = false
+align = 1
+script = ExtResource( 3 )
+Num = "00000005"
+
+[node name="Swap7" type="Button" parent="CanvasLayer/ScrollContainer/VBoxContainer" index="6"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 144.0
+margin_right = 112.0
+margin_bottom = 164.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "DreamState UB"
+flat = false
+align = 1
+script = ExtResource( 3 )
+Num = "00000006"
+
+[node name="Swap8" type="Button" parent="CanvasLayer/ScrollContainer/VBoxContainer" index="7"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 168.0
+margin_right = 112.0
+margin_bottom = 188.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "DreamDay UB"
+flat = false
+align = 1
+script = ExtResource( 3 )
+Num = "00000007"
+
+[node name="Swap9" type="Button" parent="CanvasLayer/ScrollContainer/VBoxContainer" index="8"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 192.0
+margin_right = 112.0
+margin_bottom = 212.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "DreamNight UB"
+flat = false
+align = 1
+script = ExtResource( 3 )
+Num = "00000008"
+
+[node name="Swap10" type="Button" parent="CanvasLayer/ScrollContainer/VBoxContainer" index="9"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 216.0
+margin_right = 112.0
+margin_bottom = 236.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Realm UB"
+flat = false
+align = 1
+script = ExtResource( 3 )
+Num = "00000009"
+
+[node name="World" type="Node2D" parent="." index="1"]
+
+editor/display_folded = true
+
+[node name="Funkeystown" parent="World" index="0" instance=ExtResource( 4 )]
+
+[node name="Player" parent="." index="2" instance=ExtResource( 5 )]
+
+editor/display_folded = true
+position = Vector2( -138.758, -58.4961 )
+_sections_unfolded = [ "Transform" ]
+Player = true
+
+[node name="Camera2D" type="Camera2D" parent="Player" index="4"]
+
+anchor_mode = 1
+rotating = false
+current = true
+zoom = Vector2( 1, 1 )
+limit_left = -10000000
+limit_top = -10000000
+limit_right = 10000000
+limit_bottom = 10000000
+limit_smoothed = false
+drag_margin_h_enabled = false
+drag_margin_v_enabled = false
+smoothing_enabled = false
+smoothing_speed = 5.0
+offset_v = 0.0
+offset_h = 0.0
+drag_margin_left = 0.2
+drag_margin_top = 0.2
+drag_margin_right = 0.2
+drag_margin_bottom = 0.2
+editor_draw_screen = true
+editor_draw_limits = false
+editor_draw_drag_margin = false
+script = ExtResource( 6 )
+
+
